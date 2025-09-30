@@ -4,6 +4,7 @@ import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { Download, ArrowDown, Github, Linkedin, Mail } from "lucide-react"
 import { getPersonalInfo } from "@/lib/data"
+import { getAssetPath } from "@/lib/utils"
 import Image from "next/image"
 
 export function HeroSection() {
@@ -78,7 +79,7 @@ export function HeroSection() {
               <Button
                 size="lg"
                 className="group relative overflow-hidden cursor-pointer"
-                onClick={() => window.open(personalInfo.resume, "_blank")}
+                onClick={() => window.open(getAssetPath(personalInfo.resume), "_blank")}
               >
                 <span className="relative z-10 flex items-center gap-2">
                   <Download className="h-4 w-4" />
@@ -150,7 +151,7 @@ export function HeroSection() {
                 transition={{ duration: 0.3 }}
               >
                 <Image
-                  src={personalInfo.profileImage || "placeholder.svg"}
+                  src={getAssetPath(personalInfo.profileImage || "/placeholder.svg")}
                   alt={personalInfo.name}
                   fill
                   className="object-cover"

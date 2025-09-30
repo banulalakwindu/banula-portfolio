@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
 import { ExternalLink, Github, Code, Brain, Search, Layers } from "lucide-react"
 import { getProjects } from "@/lib/data"
+import { getAssetPath } from "@/lib/utils"
 import Image from "next/image"
 
 export function ProjectsSection() {
@@ -97,7 +98,7 @@ export function ProjectsSection() {
                 <Card className="group overflow-hidden hover:shadow-xl transition-all duration-300 hover:scale-[1.02] h-full flex flex-col">
                   <div className="relative overflow-hidden">
                     <Image
-                      src={project.image || "placeholder.svg"}
+                      src={getAssetPath(project.image || "/placeholder.svg")}
                       alt={project.title}
                       width={500}
                       height={300}

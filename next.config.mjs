@@ -2,6 +2,7 @@
 const nextConfig = {
   output: 'export',
   basePath: '/banula-portfolio',
+  assetPrefix: '/banula-portfolio',
   trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
