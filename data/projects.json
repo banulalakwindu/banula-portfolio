@@ -1,0 +1,223 @@
+[
+  {
+    "id": 1,
+    "title": "AI Content Writer",
+    "description": "Built an AI-driven platform for generating SEO-friendly content across blogs, articles, and social media to boost visibility and engagement.",
+    "image": "/projects/1.jpg",
+    "technologies": [
+      "AWS",
+      "Node.js",
+      "TypeScript",
+      "Next.js"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": false,
+    "category": "AI/ML"
+  },
+  {
+    "id": 2,
+    "title": "AI Legal Assistant App",
+    "description": "Developed an AI-powered legal platform providing instant document creation and UK law-compliant legal advice.",
+    "image": "/projects/2.jpg",
+    "technologies": [
+      "AWS",
+      "Node.js",
+      "TypeScript",
+      "Next.js"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": false,
+    "category": "AI/ML"
+  },
+  {
+    "id": 3,
+    "title": "Hospital Management System",
+    "description": "Worked on a real-time inventory management system for a private hospital in Sri Lanka.",
+    "image": "/projects/3.jpg",
+    "technologies": [
+      "AWS",
+      "Node.js",
+      "TypeScript",
+      "Next.js"
+    ],
+    "liveUrl": "https://nawinnehospital.com/",
+    "githubUrl": "",
+    "featured": false,
+    "category": "Full Stack"
+  },
+  {
+    "id": 4,
+    "title": "Pharmacy Management System",
+    "description": "Contributed to the development of a real-time pharmacy management system.",
+    "image": "/projects/4.jpg",
+    "technologies": [
+      "AWS",
+      "Node.js",
+      "TypeScript",
+      "Next.js"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": false,
+    "category": "Full Stack"
+  },
+  {
+    "id": 5,
+    "title": "VIP Travels - Vehicle Booking System",
+    "description": "Developer - Vehicle booking system for VIP Travels using Python and Django.",
+    "image": "/projects/5.jpg",
+    "technologies": [
+      "Python",
+      "Django"
+    ],
+    "liveUrl": "https://viptravels.lk/",
+    "githubUrl": "",
+    "featured": false,
+    "category": "Full Stack"
+  },
+  {
+    "id": 6,
+    "title": "Senarath Group - Web System",
+    "description": "Project Manager/Developer - Web system for Senarath Group using PHP and Laravel.",
+    "image": "/projects/6.jpg",
+    "technologies": [
+      "PHP",
+      "Laravel"
+    ],
+    "liveUrl": "https://senarathgroup.lk",
+    "githubUrl": "",
+    "featured": false,
+    "category": "Full Stack"
+  },
+  {
+    "id": 7,
+    "title": "Neo Creative - Web System",
+    "description": "Project Manager/Developer - Web system for Neo Creative using PHP and Laravel.",
+    "image": "/projects/7.jpg",
+    "technologies": [
+      "PHP",
+      "Laravel"
+    ],
+    "liveUrl": "https://neocreative.lk/",
+    "githubUrl": "",
+    "featured": false,
+    "category": "Full Stack"
+  },
+  {
+    "id": 8,
+    "title": "Performance Comparison of Molecular Data in Diabetic Retinopathy Identification",
+    "description": "University Final Year Research - Compared molecular data types to optimize diabetic retinopathy identification and improve diagnostic accuracy using Python.",
+    "image": "/projects/8.jpg",
+    "technologies": [
+      "Python"
+    ],
+    "liveUrl": "",
+    "githubUrl": "https://github.com/banulalakwindu/Performance-Comparison-of-Molecular-Data-in-Diabetic-Retinopathy-Identification",
+    "featured": false,
+    "category": "Research"
+  },
+  {
+    "id": 9,
+    "title": "Blu-Ray Cinema - Web System",
+    "description": "Freelance - Web system for Blu-Ray Cinema using PHP and Laravel.",
+    "image": "/projects/9.jpg",
+    "technologies": [
+      "PHP",
+      "Laravel"
+    ],
+    "liveUrl": "https://www.blu-raycinema.com/",
+    "githubUrl": "",
+    "featured": false,
+    "category": "Full Stack"
+  },
+  {
+    "id": 10,
+    "title": "Premium Taprobana - Web System",
+    "description": "Freelance - Web system for Premium Taprobana using PHP and Laravel.",
+    "image": "/projects/10.jpg",
+    "technologies": [
+      "PHP",
+      "Laravel",
+      "Nginx",
+      "Redis"
+    ],
+    "liveUrl": "https://www.premiumtaprobana.com/",
+    "githubUrl": "",
+    "featured": false,
+    "category": "Full Stack"
+  },
+  {
+    "id": 11,
+    "title": "BluRay-Bot - AI Chatbot for Blu-Ray Cinema",
+    "description": "Freelance - AI Chatbot for Blu-Ray Cinema using Google Dialogflow and Python.",
+    "image": "/projects/11.jpg",
+    "technologies": [
+      "Google Dialogflow",
+      "Python"
+    ],
+    "liveUrl": "",
+    "githubUrl": "https://github.com/banulalakwindu/DialogFlickBot",
+    "featured": false,
+    "category": "AI/ML"
+  },
+  {
+    "id": 12,
+    "title": "Shuttle Inter - Web System",
+    "description": "Project Manager/Developer - Web system for Shuttle Inter booking system using PHP and Laravel.",
+    "image": "/projects/12.jpg",
+    "technologies": [
+      "PHP",
+      "Laravel"
+    ],
+    "liveUrl": "https://www.shuttle-inter.com/",
+    "githubUrl": "",
+    "featured": false,
+    "category": "Full Stack"
+  },
+  {
+    "id": 13,
+    "title": "A Taste of Heaven - Web System",
+    "description": "Project Manager/Developer - Web system for A Taste of Heaven cake shop using PHP and Laravel.",
+    "image": "/projects/13.jpg",
+    "technologies": [
+      "PHP",
+      "Laravel"
+    ],
+    "liveUrl": "https://www.atasteofheaven.lk/",
+    "githubUrl": "",
+    "featured": false,
+    "category": "Full Stack"
+  },
+  {
+    "id": 14,
+    "title": "Aussie Life Education - Web System",
+    "description": "Project Manager/Developer - Web system for Aussie Life Education using PHP and Laravel.",
+    "image": "/projects/14.jpg",
+    "technologies": [
+      "PHP",
+      "Laravel"
+    ],
+    "liveUrl": "https://aussielifeeducation.com/",
+    "githubUrl": "",
+    "featured": false,
+    "category": "Full Stack"
+  },
+  {
+    "id": 15,
+    "title": "Sanka Dineth - Web System",
+    "description": "Project Manager/Developer - Web system for Sanka Dineth Musician using PHP and Laravel.",
+    "image": "/projects/15.jpg",
+    "technologies": [
+      "PHP",
+      "Laravel",
+      "Nginx",
+      "Redis"
+    ],
+    "liveUrl": "https://sankadineth.com/",
+    "githubUrl": "",
+    "featured": false,
+    "category": "Full Stack"
+  }
+]

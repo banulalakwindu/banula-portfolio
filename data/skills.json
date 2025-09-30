@@ -1,0 +1,98 @@
+{
+  "frontend": [
+    {
+      "name": "Next.js",
+      "level": 90,
+      "category": "Frontend"
+    },
+    {
+      "name": "React",
+      "level": 80,
+      "category": "Frontend"
+    },
+    {
+      "name": "TypeScript",
+      "level": 88,
+      "category": "Frontend"
+    },
+    {
+      "name": "Laravel Blade",
+      "level": 90,
+      "category": "Frontend"
+    },
+    {
+      "name": "Tailwind CSS",
+      "level": 92,
+      "category": "Frontend"
+    },
+    {
+      "name": "Bootstrap",
+      "level": 78,
+      "category": "Frontend"
+    }
+  ],
+  "backend": [
+    {
+      "name": "Laravel (PHP)",
+      "level": 98,
+      "category": "Backend"
+    },
+    {
+      "name": "Node.js",
+      "level": 88,
+      "category": "Backend"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": 85,
+      "category": "Backend"
+    },
+    {
+      "name": "MySQL",
+      "level": 82,
+      "category": "Backend"
+    },
+    {
+      "name": "DynamoDB",
+      "level": 78,
+      "category": "Backend"
+    },
+    {
+      "name": "Redis",
+      "level": 80,
+      "category": "Backend"
+    }
+  ],
+  "tools": [
+    {
+      "name": "Git",
+      "level": 95,
+      "category": "Tools"
+    },
+    {
+      "name": "Vercel",
+      "level": 90,
+      "category": "Tools"
+    },
+    {
+      "name": "AWS",
+      "level": 88,
+      "category": "Tools"
+    },
+    {
+      "name": "Serverless Framework",
+      "level": 85,
+      "category": "Tools"
+    },
+    {
+      "name": "Docker",
+      "level": 78,
+      "category": "Tools"
+    },
+    {
+      "name": "Nginx",
+      "level": 75,
+      "category": "Tools"
+    }
+  ]
+}

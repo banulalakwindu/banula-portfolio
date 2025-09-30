@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "company": "VVECON",
+    "positions": [
+      {
+        "role": "Project Manager (Software Development)",
+        "startDate": "2024-09",
+        "endDate": "Present",
+        "description": "Project execution and coordination, client communication and delivery, software development and deployment",
+        "technologies": [
+          "PHP",
+          "Laravel",
+          "Nginx",
+          "Redis"
+        ]
+      },
+      {
+        "role": "Software Engineer (Part Time)",
+        "startDate": "2022-10",
+        "endDate": "2024-09",
+        "description": "Software development",
+        "technologies": [
+          "Python",
+          "Django"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "company": "Phrasecode (PVT) Ltd",
+    "positions": [
+      {
+        "role": "Software Engineer (Part Time)",
+        "startDate": "2024-09",
+        "endDate": "Present",
+        "description": "Software development and cloud deployment",
+        "technologies": [
+          "AWS",
+          "Node.js",
+          "TypeScript",
+          "Next.js",
+          "DynamoDB"
+        ]
+      },
+      {
+        "role": "Software Engineer (Intern)",
+        "startDate": "2024-02",
+        "endDate": "2024-07",
+        "description": "Software development and cloud deployment",
+        "technologies": [
+          "AWS",
+          "Node.js",
+          "TypeScript",
+          "Next.js",
+          "DynamoDB"
+        ]
+      }
+    ]
+  }
+]

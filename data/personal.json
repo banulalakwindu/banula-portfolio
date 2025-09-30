@@ -1,0 +1,21 @@
+{
+  "name": "Banula Lakwindu",
+  "title": "Software Engineer",
+  "tagline": "Crafting scalable web applications with PHP, Laravel, Next.js, React, and AWS Serverless",
+  "bio": "I'm a dedicated software engineer specializing in PHP, Laravel, Next.js, React, and AWS Serverless. I enjoy building efficient and maintainable web systems. When I'm not coding, I like watching movies and TV shows or playing games.",
+  "location": "Ratnapura, Sri Lanka",
+  "email": "banulalakwindu10@gmail.com",
+  "phone": "+94 77 054 0537",
+  "website": "https://banula.dev",
+  "profileImage": "/user.jpg",
+  "resume": "/banula-lakwindu-cv.pdf",
+  "social": {
+    "github": "https://github.com/banulalakwindu",
+    "linkedin": "https://linkedin.com/in/banulalakwindu",
+    "email": "mailto:banulalakwindu10@gmail.com"
+  },
+  "availability": {
+    "status": "open",
+    "message": "Available for projects and full-time opportunities"
+  }
+}
