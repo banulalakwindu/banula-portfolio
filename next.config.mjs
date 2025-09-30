@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '',
+  basePath: '/banula-portfolio',
   trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
