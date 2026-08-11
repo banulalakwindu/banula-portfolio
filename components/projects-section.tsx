@@ -25,9 +25,13 @@ export function ProjectsSection() {
   const categories = Array.from(new Set(allProjects.flatMap((p) => p.categories)))
   const filters = ["Featured", ...categories]
 
+  const featuredOrder = [16, 8, 3, 1, 13, 5]
+
   const filteredProjects =
     selectedFilter === "Featured"
-      ? allProjects.filter((p) => p.featured)
+      ? allProjects
+          .filter((p) => p.featured)
+          .sort((a, b) => featuredOrder.indexOf(a.id) - featuredOrder.indexOf(b.id))
       : allProjects.filter((p) => p.categories.includes(selectedFilter))
 
   const containerVariants = {
@@ -118,7 +122,7 @@ export function ProjectsSection() {
                             className="opacity-0 group-hover:opacity-100 transition-all duration-300 delay-100"
                           >
                             <ExternalLink className="h-4 w-4 mr-2" />
-                            Live Demo
+                            Visit site
                           </Button>
                         )}
                         {project.githubUrl && (
@@ -134,7 +138,11 @@ export function ProjectsSection() {
                         )}
                       </div>
                     )}
-                    {project.featured && <Badge className="absolute top-4 left-4 bg-primary">Featured</Badge>}
+                    {project.featured && (
+                      <Badge className="absolute top-4 left-4 bg-primary text-white hover:bg-primary">
+                        Featured
+                      </Badge>
+                    )}
                   </div>
 
                   <CardContent className="p-6 flex-1 flex flex-col">
