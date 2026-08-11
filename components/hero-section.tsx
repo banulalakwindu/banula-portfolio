@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
-import { Download, ArrowDown, Github, Linkedin, Mail } from "lucide-react"
+import { Download, ArrowDown, Github, Linkedin, Mail, Briefcase } from "lucide-react"
 import { getPersonalInfo } from "@/lib/data"
 import { getAssetPath } from "@/lib/utils"
 import Image from "next/image"
@@ -79,13 +79,25 @@ export function HeroSection() {
               <Button
                 size="lg"
                 className="group relative overflow-hidden cursor-pointer"
-                onClick={() => window.open(getAssetPath(personalInfo.resume), "_blank")}
+                onClick={() => scrollToSection("#projects")}
               >
                 <span className="relative z-10 flex items-center gap-2">
+                  <Briefcase className="h-4 w-4" />
+                  View my work
+                </span>
+                <div className="absolute inset-0 bg-primary/20 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300" />
+              </Button>
+
+              <Button
+                variant="outline"
+                size="lg"
+                className="group cursor-pointer"
+                onClick={() => window.open(getAssetPath(personalInfo.resume), "_blank")}
+              >
+                <span className="flex items-center gap-2">
                   <Download className="h-4 w-4" />
                   Download CV
                 </span>
-                <div className="absolute inset-0 bg-primary/20 translate-x-[-100%] group-hover:translate-x-0 transition-transform duration-300" />
               </Button>
 
               <Button variant="outline" size="lg" onClick={() => scrollToSection("#contact")} className="group cursor-pointer">

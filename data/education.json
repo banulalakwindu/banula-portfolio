@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "degree": "MSc in Computer Science",
+    "institution": "University of Sri Jayewardenepura",
+    "location": "Nugegoda, Sri Lanka",
+    "startDate": "2026",
+    "endDate": "Present"
+  },
+  {
+    "id": 2,
+    "degree": "B.Sc. Eng. (Hons) in Computer Engineering",
+    "institution": "University of Jaffna",
+    "location": "Jaffna, Sri Lanka",
+    "startDate": "2019",
+    "endDate": "2024"
+  }
+]

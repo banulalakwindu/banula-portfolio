@@ -12,8 +12,8 @@
     ],
     "liveUrl": "",
     "githubUrl": "",
-    "featured": false,
-    "category": "AI/ML"
+    "featured": true,
+    "categories": ["AI/ML"]
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
     "liveUrl": "",
     "githubUrl": "",
     "featured": false,
-    "category": "AI/ML"
+    "categories": ["AI/ML"]
   },
   {
     "id": 3,
@@ -44,8 +44,8 @@
     ],
     "liveUrl": "https://nawinnehospital.com/",
     "githubUrl": "",
-    "featured": false,
-    "category": "Full Stack"
+    "featured": true,
+    "categories": ["Full Stack"]
   },
   {
     "id": 4,
@@ -61,7 +61,7 @@
     "liveUrl": "",
     "githubUrl": "",
     "featured": false,
-    "category": "Full Stack"
+    "categories": ["Full Stack"]
   },
   {
     "id": 5,
@@ -74,8 +74,8 @@
     ],
     "liveUrl": "https://viptravels.lk/",
     "githubUrl": "",
-    "featured": false,
-    "category": "Full Stack"
+    "featured": true,
+    "categories": ["Full Stack"]
   },
   {
     "id": 6,
@@ -89,7 +89,7 @@
     "liveUrl": "https://senarathgroup.lk",
     "githubUrl": "",
     "featured": false,
-    "category": "Full Stack"
+    "categories": ["Full Stack"]
   },
   {
     "id": 7,
@@ -103,20 +103,20 @@
     "liveUrl": "https://neocreative.lk/",
     "githubUrl": "",
     "featured": false,
-    "category": "Full Stack"
+    "categories": ["Full Stack"]
   },
   {
     "id": 8,
-    "title": "Performance Comparison of Molecular Data in Diabetic Retinopathy Identification",
-    "description": "University Final Year Research - Compared molecular data types to optimize diabetic retinopathy identification and improve diagnostic accuracy using Python.",
+    "title": "Molecular Data in Diabetic Retinopathy Identification",
+    "description": "Published undergraduate research in Experimental Eye Research (Elsevier). Compared molecular data types to improve diabetic retinopathy identification accuracy.",
     "image": "/projects/8.jpg",
     "technologies": [
       "Python"
     ],
-    "liveUrl": "",
+    "liveUrl": "https://doi.org/10.1016/j.exer.2026.110988",
     "githubUrl": "https://github.com/banulalakwindu/Performance-Comparison-of-Molecular-Data-in-Diabetic-Retinopathy-Identification",
-    "featured": false,
-    "category": "Research"
+    "featured": true,
+    "categories": ["Research"]
   },
   {
     "id": 9,
@@ -130,7 +130,7 @@
     "liveUrl": "https://www.blu-raycinema.com/",
     "githubUrl": "",
     "featured": false,
-    "category": "Full Stack"
+    "categories": ["Full Stack"]
   },
   {
     "id": 10,
@@ -145,8 +145,8 @@
     ],
     "liveUrl": "https://www.premiumtaprobana.com/",
     "githubUrl": "",
-    "featured": false,
-    "category": "Full Stack"
+    "featured": true,
+    "categories": ["Full Stack"]
   },
   {
     "id": 11,
@@ -160,7 +160,7 @@
     "liveUrl": "",
     "githubUrl": "https://github.com/banulalakwindu/DialogFlickBot",
     "featured": false,
-    "category": "AI/ML"
+    "categories": ["AI/ML"]
   },
   {
     "id": 12,
@@ -174,7 +174,7 @@
     "liveUrl": "https://www.shuttle-inter.com/",
     "githubUrl": "",
     "featured": false,
-    "category": "Full Stack"
+    "categories": ["Full Stack"]
   },
   {
     "id": 13,
@@ -188,7 +188,7 @@
     "liveUrl": "https://www.atasteofheaven.lk/",
     "githubUrl": "",
     "featured": false,
-    "category": "Full Stack"
+    "categories": ["Full Stack"]
   },
   {
     "id": 14,
@@ -202,7 +202,7 @@
     "liveUrl": "https://aussielifeeducation.com/",
     "githubUrl": "",
     "featured": false,
-    "category": "Full Stack"
+    "categories": ["Full Stack"]
   },
   {
     "id": 15,
@@ -218,6 +218,23 @@
     "liveUrl": "https://sankadineth.com/",
     "githubUrl": "",
     "featured": false,
-    "category": "Full Stack"
+    "categories": ["Full Stack"]
+  },
+  {
+    "id": 16,
+    "title": "Sanka Dineth Ticketing",
+    "description": "Seat reservation web platform with a NativePHP ticket-scanning mobile app for live event check-in.",
+    "image": "/projects/16.jpg",
+    "technologies": [
+      "PHP",
+      "Laravel",
+      "NativePHP",
+      "Nginx",
+      "Redis"
+    ],
+    "liveUrl": "",
+    "githubUrl": "",
+    "featured": true,
+    "categories": ["Full Stack", "Mobile"]
   }
 ]

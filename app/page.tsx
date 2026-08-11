@@ -1,7 +1,8 @@
 import { Navigation } from "@/components/navigation"
 import { HeroSection } from "@/components/hero-section"
-import { ExperienceSection } from "@/components/experience-section"
 import { ProjectsSection } from "@/components/projects-section"
+import { ExperienceSection } from "@/components/experience-section"
+import { EducationSection } from "@/components/education-section"
 import { SkillsSection } from "@/components/skills-section"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
@@ -16,8 +17,9 @@ export default function Home() {
       <main className="relative">
         <Navigation />
         <HeroSection />
-        <ExperienceSection />
         <ProjectsSection />
+        <ExperienceSection />
+        <EducationSection />
         <SkillsSection />
         <ContactSection />
         <Footer />

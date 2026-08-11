@@ -5,25 +5,30 @@ import { motion, AnimatePresence } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { ExternalLink, Github, Code, Brain, Search, Layers } from "lucide-react"
+import { ExternalLink, Github, Code, Brain, Search, Layers, Smartphone, Star } from "lucide-react"
 import { getProjects } from "@/lib/data"
 import { getAssetPath } from "@/lib/utils"
 import Image from "next/image"
 
 export function ProjectsSection() {
   const allProjects = getProjects()
-  const [selectedCategory, setSelectedCategory] = useState("Full Stack")
+  const [selectedFilter, setSelectedFilter] = useState("Featured")
 
-  const categoryIcons = {
+  const categoryIcons: Record<string, typeof Code> = {
+    Featured: Star,
     "Full Stack": Layers,
     "AI/ML": Brain,
-    "Research": Search,
-    "Mobile": Code
+    Research: Search,
+    Mobile: Smartphone,
   }
 
-  const categories = Array.from(new Set(allProjects.map((p) => p.category)))
+  const categories = Array.from(new Set(allProjects.flatMap((p) => p.categories)))
+  const filters = ["Featured", ...categories]
 
-  const filteredProjects = allProjects.filter((p) => p.category === selectedCategory)
+  const filteredProjects =
+    selectedFilter === "Featured"
+      ? allProjects.filter((p) => p.featured)
+      : allProjects.filter((p) => p.categories.includes(selectedFilter))
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -55,11 +60,10 @@ export function ProjectsSection() {
         >
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Projects</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto text-pretty">
-            A showcase of my work including AI platforms, management systems, and research projects
+            Selected work across full-stack systems, AI platforms, mobile apps, and published research
           </p>
         </motion.div>
 
-        {/* Category filters */}
         <motion.div
           className="flex flex-wrap justify-center gap-2 mb-12"
           initial={{ opacity: 0, y: 20 }}
@@ -67,18 +71,18 @@ export function ProjectsSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          {categories.map((category) => {
-            const IconComponent = categoryIcons[category as keyof typeof categoryIcons] || Code
+          {filters.map((filter) => {
+            const IconComponent = categoryIcons[filter] || Code
             return (
               <Button
-                key={category}
-                variant={selectedCategory === category ? "default" : "outline"}
+                key={filter}
+                variant={selectedFilter === filter ? "default" : "outline"}
                 size="sm"
-                onClick={() => setSelectedCategory(category)}
+                onClick={() => setSelectedFilter(filter)}
                 className="capitalize"
               >
                 <IconComponent className="h-3 w-3 mr-2" />
-                {category}
+                {filter}
               </Button>
             )
           })}
@@ -86,7 +90,7 @@ export function ProjectsSection() {
 
         <AnimatePresence mode="wait">
           <motion.div
-            key={selectedCategory}
+            key={selectedFilter}
             className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
             variants={containerVariants}
             initial="hidden"
@@ -160,7 +164,6 @@ export function ProjectsSection() {
             ))}
           </motion.div>
         </AnimatePresence>
-
       </div>
     </section>
   )

@@ -7,10 +7,12 @@
         "role": "Project Manager (Software Development)",
         "startDate": "2024-09",
         "endDate": "Present",
-        "description": "Project execution and coordination, client communication and delivery, software development and deployment",
+        "description": "Lead delivery of client web systems end-to-end—requirements through deployment—including ticketing, e-commerce, and booking platforms built with Laravel.",
         "technologies": [
           "PHP",
           "Laravel",
+          "Python",
+          "Django",
           "Nginx",
           "Redis"
         ]
@@ -19,10 +21,12 @@
         "role": "Software Engineer (Part Time)",
         "startDate": "2022-10",
         "endDate": "2024-09",
-        "description": "Software development",
+        "description": "Built and maintained Django and Laravel web applications for client delivery.",
         "technologies": [
           "Python",
-          "Django"
+          "Django",
+          "PHP",
+          "Laravel"
         ]
       }
     ]
@@ -33,9 +37,9 @@
     "positions": [
       {
         "role": "Software Engineer (Part Time)",
-        "startDate": "2024-09",
-        "endDate": "Present",
-        "description": "Software development and cloud deployment",
+        "startDate": "2024",
+        "endDate": "2025",
+        "description": "Developed cloud-hosted web and AI products with Next.js and AWS, including hospital/pharmacy systems and AI writing platforms.",
         "technologies": [
           "AWS",
           "Node.js",
@@ -46,9 +50,9 @@
       },
       {
         "role": "Software Engineer (Intern)",
-        "startDate": "2024-02",
-        "endDate": "2024-07",
-        "description": "Software development and cloud deployment",
+        "startDate": "2023",
+        "endDate": "2024",
+        "description": "Contributed to real-time inventory and AI-powered applications using modern serverless web stacks.",
         "technologies": [
           "AWS",
           "Node.js",

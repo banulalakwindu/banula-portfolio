@@ -2,6 +2,7 @@ import experienceData from "@/data/experience.json"
 import projectsData from "@/data/projects.json"
 import skillsData from "@/data/skills.json"
 import personalData from "@/data/personal.json"
+import educationData from "@/data/education.json"
 
 export interface Position {
   role: string
@@ -26,7 +27,16 @@ export interface Project {
   liveUrl?: string
   githubUrl?: string
   featured: boolean
-  category: string
+  categories: string[]
+}
+
+export interface Education {
+  id: number
+  degree: string
+  institution: string
+  location: string
+  startDate: string
+  endDate: string
 }
 
 export interface Skill {
@@ -78,7 +88,11 @@ export function getFeaturedProjects(): Project[] {
 }
 
 export function getProjectsByCategory(category: string): Project[] {
-  return projectsData.filter((project) => project.category === category)
+  return projectsData.filter((project) => project.categories.includes(category))
+}
+
+export function getEducation(): Education[] {
+  return educationData
 }
 
 export function getSkills(): SkillsData {
@@ -96,6 +110,7 @@ export function getPersonalInfo(): PersonalInfo {
 // Utility functions
 export function formatDate(dateString: string): string {
   if (dateString === "Present") return "Present"
+  if (/^\d{4}$/.test(dateString)) return dateString
 
   const date = new Date(dateString)
   return date.toLocaleDateString("en-US", {
